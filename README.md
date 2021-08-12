@@ -25,7 +25,12 @@
 
 ### 2. 预训练语言模型微调
 
-`cd ./`
+- ERNIE 1.0 预训练模型下载：https://github.com/nghuyong/ERNIE-Pytorch
+
+- BERT-wwm：https://github.com/ymcui/Chinese-BERT-wwm#%E4%B8%AD%E6%96%87%E6%A8%A1%E5%9E%8B%E4%B8%8B%E8%BD%BD
+
+下载后对应放入到`ERNIE_pretrain`和`BERT_wwm_pretrain`文件夹内
+
 
 `python CMID_bert_embedding.py --bert_path ERNIE_pretrain --data_type MKdata --train_file train`
 
