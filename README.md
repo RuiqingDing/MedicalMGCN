@@ -29,7 +29,7 @@
 
 - BERT-wwm：https://github.com/ymcui/Chinese-BERT-wwm#%E4%B8%AD%E6%96%87%E6%A8%A1%E5%9E%8B%E4%B8%8B%E8%BD%BD
 
-下载后对应放入到`ERNIE_pretrain`和`BERT_wwm_pretrain`文件夹内
+下载后在当前文件夹创建`ERNIE_pretrain`和`BERT_wwm_pretrain`文件夹，分别存放相关文件
 
 
 `python CMID_bert_embedding.py --bert_path ERNIE_pretrain --data_type MKdata --train_file train`
