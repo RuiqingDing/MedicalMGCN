@@ -12,7 +12,7 @@
 
 ## 运行代码
 
-### 1. 融合知识的文本增强
+### 1. 融合知识的文本增强 (MKDA)
 
 `cd ./MKDA`
 
@@ -35,7 +35,7 @@
 `python CMID_bert_embedding.py --bert_path ERNIE_pretrain --data_type MKdata --train_file train`
 
 
-### 3. 多图神经网络模型
+### 3. 多图神经网络模型 (MGCN)
 
 - 准备数据
 
